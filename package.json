@@ -30,6 +30,7 @@
       "name": "Riva Almero",
       "email": "rivaalms@proton.me"
    },
+   "repository": "github:almsomnia/jitsi-iframe-sdk",
    "license": "ISC",
    "packageManager": "pnpm@10.5.2",
    "devDependencies": {
