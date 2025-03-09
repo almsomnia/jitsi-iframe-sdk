@@ -1,0 +1,21 @@
+{
+   "compilerOptions": {
+      "baseUrl": ".",
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "lib": ["dom", "dom.iterable", "scripthost"],
+      "target": "esnext",
+      "module": "esnext",
+      "resolveJsonModule": true,
+      "moduleResolution": "node",
+      "allowJs": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "moduleDetection": "force",
+      "strict": true,
+      "declaration": true
+      // "sourceMap": true,
+   },
+   "include": ["./src/**/*.ts"],
+   "exclude": ["node_modules", "./.playground"]
+}
