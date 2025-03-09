@@ -1,4 +1,5 @@
 import { resolveScript } from "./utils/resolver"
+import { jwt } from './utils/jwt'
 import { JitsiMeetExternalApi, IJitsiMeetExternalApi, NthParam } from "./types"
 
 async function init(domain: string, opts: NthParam<JitsiMeetExternalApi, 1>) {
@@ -9,5 +10,5 @@ async function init(domain: string, opts: NthParam<JitsiMeetExternalApi, 1>) {
    )
 }
 
-export { init, resolveScript }
+export { init, resolveScript, jwt as JWT }
 export type { JitsiMeetExternalApi, IJitsiMeetExternalApi }
