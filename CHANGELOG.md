@@ -1,3 +1,9 @@
+#### 1.1.0 (2025-05-19)
+
+##### New Features
+
+* **breaking:**  drop jwt support (320b0e2f)
+
 #### 1.0.0 (2025-03-09)
 
 ##### Chores
