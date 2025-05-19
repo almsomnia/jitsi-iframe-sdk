@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      jose:
-        specifier: ^6.0.8
-        version: 6.0.8
     devDependencies:
       '@types/jest':
         specifier: ^29.5.14
@@ -1321,9 +1317,6 @@ packages:
     peerDependenciesMeta:
       node-notifier:
         optional: true
-
-  jose@6.0.8:
-    resolution: {integrity: sha512-EyUPtOKyTYq+iMOszO42eobQllaIjJnwkZ2U93aJzNyPibCy7CEvT9UQnaCVB51IAd49gbNdCew1c0LcLTCB2g==}
 
   joycon@3.1.1:
     resolution: {integrity: sha512-34wB/Y7MW7bzjKRjUKTa46I2Z7eV62Rkhva+KkopW7Qvv/OSWBqvkSY7vusOPrNuZcUG3tApvdVgNB8POj3SPw==}
@@ -3472,8 +3465,6 @@ snapshots:
       - babel-plugin-macros
       - supports-color
       - ts-node
-
-  jose@6.0.8: {}
 
   joycon@3.1.1: {}
 
