@@ -1,3 +1,9 @@
+#### 1.1.1 (2025-05-19)
+
+##### Documentation Changes
+
+*  update readme (850db6fb)
+
 #### 1.1.0 (2025-05-19)
 
 ##### New Features

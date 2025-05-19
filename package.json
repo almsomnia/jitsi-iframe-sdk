@@ -1,6 +1,6 @@
 {
    "name": "jitsi-iframe-sdk",
-   "version": "1.1.0",
+   "version": "1.1.1",
    "description": "Wrapper for Jitsi iframe API",
    "type": "module",
    "main": "./dist/index.js",
